@@ -1,0 +1,10 @@
+<div>
+  <label>First Name:</label>
+  <input type="text" [formControl]="firstNameInput"
+    (input)="doInput()" (blur)="doBlur()">
+</div>
+<div>
+  <label>Last Name:</label>
+  <input type="text" [formControl]="lastNameInput"
+    (input)="doInput()" (blur)="doBlur()">
+</div>
